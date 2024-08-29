@@ -1,0 +1,60 @@
+[0.056s] Invoking command in '/root/dream_ws/build/KR600_2830_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/dream_ws/src/KR600_2830_description -DCMAKE_INSTALL_PREFIX=/root/dream_ws/install/KR600_2830_description
+[0.429s] -- The C compiler identification is GNU 11.4.0
+[0.738s] -- The CXX compiler identification is GNU 11.4.0
+[0.767s] -- Detecting C compiler ABI info
+[1.087s] -- Detecting C compiler ABI info - done
+[1.116s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.117s] -- Detecting C compile features
+[1.119s] -- Detecting C compile features - done
+[1.129s] -- Detecting CXX compiler ABI info
+[1.342s] -- Detecting CXX compiler ABI info - done
+[1.369s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.370s] -- Detecting CXX compile features
+[1.371s] -- Detecting CXX compile features - done
+[1.406s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.777s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.119s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.250s] WARNING: Package name "KR600_2830_description" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[2.356s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.360s] -- Added test 'lint_cmake' to check CMake code style
+[2.363s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.367s] -- Added test 'xmllint' to check XML markup files
+[2.372s] -- Configuring done
+[2.388s] -- Generating done
+[2.392s] -- Build files have been written to: /root/dream_ws/build/KR600_2830_description
+[2.403s] Invoked command in '/root/dream_ws/build/KR600_2830_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/dream_ws/src/KR600_2830_description -DCMAKE_INSTALL_PREFIX=/root/dream_ws/install/KR600_2830_description
+[2.409s] Invoking command in '/root/dream_ws/build/KR600_2830_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/dream_ws/build/KR600_2830_description -- -j12 -l12
+[2.485s] Invoked command in '/root/dream_ws/build/KR600_2830_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/dream_ws/build/KR600_2830_description -- -j12 -l12
+[2.554s] Invoking command in '/root/dream_ws/build/KR600_2830_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/dream_ws/build/KR600_2830_description
+[2.570s] -- Install configuration: ""
+[2.571s] -- Installing: /root/dream_ws/install/KR600_2830_description/share/KR600_2830_description/launch
+[2.572s] -- Installing: /root/dream_ws/install/KR600_2830_description/share/KR600_2830_description/launch/view_description.launch.py
+[2.573s] -- Installing: /root/dream_ws/install/KR600_2830_description/share/KR600_2830_description/meshes
+[2.573s] -- Installing: /root/dream_ws/install/KR600_2830_description/share/KR600_2830_description/meshes/link6.stl
+[2.580s] -- Installing: /root/dream_ws/install/KR600_2830_description/share/KR600_2830_description/meshes/base_link.stl
+[2.590s] -- Installing: /root/dream_ws/install/KR600_2830_description/share/KR600_2830_description/meshes/link4.stl
+[2.602s] -- Installing: /root/dream_ws/install/KR600_2830_description/share/KR600_2830_description/meshes/link5.stl
+[2.610s] -- Installing: /root/dream_ws/install/KR600_2830_description/share/KR600_2830_description/meshes/link3.stl
+[2.627s] -- Installing: /root/dream_ws/install/KR600_2830_description/share/KR600_2830_description/meshes/link2.stl
+[2.640s] -- Installing: /root/dream_ws/install/KR600_2830_description/share/KR600_2830_description/meshes/description.txt
+[2.640s] -- Installing: /root/dream_ws/install/KR600_2830_description/share/KR600_2830_description/meshes/link1.stl
+[2.652s] -- Installing: /root/dream_ws/install/KR600_2830_description/share/KR600_2830_description/rviz
+[2.653s] -- Installing: /root/dream_ws/install/KR600_2830_description/share/KR600_2830_description/rviz/config.rviz
+[2.653s] -- Installing: /root/dream_ws/install/KR600_2830_description/share/KR600_2830_description/urdf
+[2.654s] -- Installing: /root/dream_ws/install/KR600_2830_description/share/KR600_2830_description/urdf/model.urdf
+[2.655s] -- Installing: /root/dream_ws/install/KR600_2830_description/share/ament_index/resource_index/package_run_dependencies/KR600_2830_description
+[2.656s] -- Installing: /root/dream_ws/install/KR600_2830_description/share/ament_index/resource_index/parent_prefix_path/KR600_2830_description
+[2.656s] -- Installing: /root/dream_ws/install/KR600_2830_description/share/KR600_2830_description/environment/ament_prefix_path.sh
+[2.657s] -- Installing: /root/dream_ws/install/KR600_2830_description/share/KR600_2830_description/environment/ament_prefix_path.dsv
+[2.658s] -- Installing: /root/dream_ws/install/KR600_2830_description/share/KR600_2830_description/environment/path.sh
+[2.659s] -- Installing: /root/dream_ws/install/KR600_2830_description/share/KR600_2830_description/environment/path.dsv
+[2.660s] -- Installing: /root/dream_ws/install/KR600_2830_description/share/KR600_2830_description/local_setup.bash
+[2.661s] -- Installing: /root/dream_ws/install/KR600_2830_description/share/KR600_2830_description/local_setup.sh
+[2.662s] -- Installing: /root/dream_ws/install/KR600_2830_description/share/KR600_2830_description/local_setup.zsh
+[2.662s] -- Installing: /root/dream_ws/install/KR600_2830_description/share/KR600_2830_description/local_setup.dsv
+[2.663s] -- Installing: /root/dream_ws/install/KR600_2830_description/share/KR600_2830_description/package.dsv
+[2.664s] -- Installing: /root/dream_ws/install/KR600_2830_description/share/ament_index/resource_index/packages/KR600_2830_description
+[2.665s] -- Installing: /root/dream_ws/install/KR600_2830_description/share/KR600_2830_description/cmake/KR600_2830_descriptionConfig.cmake
+[2.666s] -- Installing: /root/dream_ws/install/KR600_2830_description/share/KR600_2830_description/cmake/KR600_2830_descriptionConfig-version.cmake
+[2.667s] -- Installing: /root/dream_ws/install/KR600_2830_description/share/KR600_2830_description/package.xml
+[2.671s] Invoked command in '/root/dream_ws/build/KR600_2830_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/dream_ws/build/KR600_2830_description

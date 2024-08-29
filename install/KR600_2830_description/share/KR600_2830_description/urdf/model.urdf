@@ -9,13 +9,13 @@
         <visual name="base_link_visual">
             <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
             <geometry>
-                <mesh filename="package://meshes/base_link.stl" scale="0.001 0.001 0.001" />
+                <mesh filename="meshes/base_link.stl" scale="0.001 0.001 0.001" />
             </geometry>
         </visual>
         <collision name="base_link_collision">
             <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
             <geometry>
-                <mesh filename="package://meshes/base_link.stl" scale="0.001 0.001 0.001" />
+                <mesh filename="meshes/base_link.stl" scale="0.001 0.001 0.001" />
             </geometry>
         </collision>
     </link>
@@ -28,13 +28,13 @@
         <visual name="link1_visual">
             <origin xyz="6.93889390390723e-18 0.0 0.556" rpy="3.141592653589793 -0.0 0.0" />
             <geometry>
-                <mesh filename="package://meshes/link1.stl" scale="0.001 0.001 0.001" />
+                <mesh filename="meshes/link1.stl" scale="0.001 0.001 0.001" />
             </geometry>
         </visual>
         <collision name="link1_collision">
             <origin xyz="6.93889390390723e-18 0.0 0.556" rpy="3.141592653589793 -0.0 0.0" />
             <geometry>
-                <mesh filename="package://meshes/link1.stl" scale="0.001 0.001 0.001" />
+                <mesh filename="meshes/link1.stl" scale="0.001 0.001 0.001" />
             </geometry>
         </collision>
     </link>
@@ -47,13 +47,13 @@
         <visual name="link2_visual">
             <origin xyz="-0.5 -1.045 -0.054000000000000006" rpy="-1.5707963267948966 -0.0 0.0" />
             <geometry>
-                <mesh filename="package://meshes/link2.stl" scale="0.001 0.001 0.001" />
+                <mesh filename="meshes/link2.stl" scale="0.001 0.001 0.001" />
             </geometry>
         </visual>
         <collision name="link2_collision">
             <origin xyz="-0.5 -1.045 -0.054000000000000006" rpy="-1.5707963267948966 -0.0 0.0" />
             <geometry>
-                <mesh filename="package://meshes/link2.stl" scale="0.001 0.001 0.001" />
+                <mesh filename="meshes/link2.stl" scale="0.001 0.001 0.001" />
             </geometry>
         </collision>
     </link>
@@ -66,13 +66,13 @@
         <visual name="link3_visual">
             <origin xyz="-0.500000000000006 2.345 0.255" rpy="1.5707963267948966 -0.0 0.0" />
             <geometry>
-                <mesh filename="package://meshes/link3.stl" scale="0.001 0.001 0.001" />
+                <mesh filename="meshes/link3.stl" scale="0.001 0.001 0.001" />
             </geometry>
         </visual>
         <collision name="link3_collision">
             <origin xyz="-0.500000000000006 2.345 0.255" rpy="1.5707963267948966 -0.0 0.0" />
             <geometry>
-                <mesh filename="package://meshes/link3.stl" scale="0.001 0.001 0.001" />
+                <mesh filename="meshes/link3.stl" scale="0.001 0.001 0.001" />
             </geometry>
         </collision>
     </link>
@@ -85,13 +85,13 @@
         <visual name="link4_visual">
             <origin xyz="-2.29 0.0 0.9890000000000061" rpy="-0.0 1.5707963267948966 0" />
             <geometry>
-                <mesh filename="package://meshes/link4.stl" scale="0.001 0.001 0.001" />
+                <mesh filename="meshes/link4.stl" scale="0.001 0.001 0.001" />
             </geometry>
         </visual>
         <collision name="link4_collision">
             <origin xyz="-2.29 0.0 0.9890000000000061" rpy="-0.0 1.5707963267948966 0" />
             <geometry>
-                <mesh filename="package://meshes/link4.stl" scale="0.001 0.001 0.001" />
+                <mesh filename="meshes/link4.stl" scale="0.001 0.001 0.001" />
             </geometry>
         </collision>
     </link>
@@ -104,13 +104,13 @@
         <visual name="link5_visual">
             <origin xyz="-1.525000000000006 2.29 -0.17500000000000002" rpy="1.5707963267948966 -0.0 0.0" />
             <geometry>
-                <mesh filename="package://meshes/link5.stl" scale="0.001 0.001 0.001" />
+                <mesh filename="meshes/link5.stl" scale="0.001 0.001 0.001" />
             </geometry>
         </visual>
         <collision name="link5_collision">
             <origin xyz="-1.525000000000006 2.29 -0.17500000000000002" rpy="1.5707963267948966 -0.0 0.0" />
             <geometry>
-                <mesh filename="package://meshes/link5.stl" scale="0.001 0.001 0.001" />
+                <mesh filename="meshes/link5.stl" scale="0.001 0.001 0.001" />
             </geometry>
         </collision>
     </link>
@@ -123,13 +123,13 @@
         <visual name="link6_visual">
             <origin xyz="-2.29 0.0 -1.7620000000000058" rpy="-3.141592653589793 -1.5707963267948966 0" />
             <geometry>
-                <mesh filename="package://meshes/link6.stl" scale="0.001 0.001 0.001" />
+                <mesh filename="meshes/link6.stl" scale="0.001 0.001 0.001" />
             </geometry>
         </visual>
         <collision name="link6_collision">
             <origin xyz="-2.29 0.0 -1.7620000000000058" rpy="-3.141592653589793 -1.5707963267948966 0" />
             <geometry>
-                <mesh filename="package://meshes/link6.stl" scale="0.001 0.001 0.001" />
+                <mesh filename="meshes/link6.stl" scale="0.001 0.001 0.001" />
             </geometry>
         </collision>
     </link>
