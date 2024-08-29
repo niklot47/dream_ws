@@ -23,4 +23,10 @@ if(BUILD_TESTING)
   ament_lint_auto_find_test_dependencies()
 endif()
 
+# Copy necessary files to designated locations in the project
+install (
+  DIRECTORY launch meshes rviz urdf
+  DESTINATION share/${PROJECT_NAME}
+)
+
 ament_package()
