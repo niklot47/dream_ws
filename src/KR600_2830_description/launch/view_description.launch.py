@@ -78,6 +78,8 @@ def generate_launch_description():
             'robot_description': robot_description_content}])
       
     # Launch RViz
+    # ros2 run rviz2 rviz2 -d path/to/config.rviz
+    
     start_rviz_cmd = Node(
         condition=IfCondition(use_rviz),
         package='rviz2',
