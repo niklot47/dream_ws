@@ -24,6 +24,13 @@ def generate_launch_description():
     use_rviz = LaunchConfiguration('use_rviz')
     use_sim_time = LaunchConfiguration('use_sim_time')
 
+    # Declare the launch arguments 
+    declare_jsp_gui_cmd = DeclareLaunchArgument(
+        name='jsp_gui', 
+        default_value='true', 
+        choices=['true', 'false'],
+        description='Flag to enable joint_state_publisher_gui')
+    
     declare_rviz_config_file_cmd = DeclareLaunchArgument(
         name='rviz_config_file',
         default_value=default_rviz_config_path,
