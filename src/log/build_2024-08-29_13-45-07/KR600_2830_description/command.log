@@ -1,0 +1,6 @@
+Invoking command in '/root/dream_ws/src/build/KR600_2830_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/dream_ws/src/KR600_2830_description -DCMAKE_INSTALL_PREFIX=/root/dream_ws/src/install/KR600_2830_description
+Invoked command in '/root/dream_ws/src/build/KR600_2830_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/dream_ws/src/KR600_2830_description -DCMAKE_INSTALL_PREFIX=/root/dream_ws/src/install/KR600_2830_description
+Invoking command in '/root/dream_ws/src/build/KR600_2830_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/dream_ws/src/build/KR600_2830_description -- -j12 -l12
+Invoked command in '/root/dream_ws/src/build/KR600_2830_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/dream_ws/src/build/KR600_2830_description -- -j12 -l12
+Invoking command in '/root/dream_ws/src/build/KR600_2830_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/dream_ws/src/build/KR600_2830_description
+Invoked command in '/root/dream_ws/src/build/KR600_2830_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/dream_ws/src/build/KR600_2830_description
