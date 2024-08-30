@@ -1,0 +1,9 @@
+/root/dream_ws/build/kr600/CMakeFiles/uninstall.dir
+/root/dream_ws/build/kr600/CMakeFiles/kr600_uninstall.dir
+/root/dream_ws/build/kr600/CMakeFiles/test.dir
+/root/dream_ws/build/kr600/CMakeFiles/edit_cache.dir
+/root/dream_ws/build/kr600/CMakeFiles/rebuild_cache.dir
+/root/dream_ws/build/kr600/CMakeFiles/list_install_components.dir
+/root/dream_ws/build/kr600/CMakeFiles/install.dir
+/root/dream_ws/build/kr600/CMakeFiles/install/local.dir
+/root/dream_ws/build/kr600/CMakeFiles/install/strip.dir
