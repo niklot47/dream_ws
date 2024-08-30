@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-project(KR600_2830_description)
+project(kr600)
 
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
@@ -22,11 +22,5 @@ if(BUILD_TESTING)
   set(ament_cmake_cpplint_FOUND TRUE)
   ament_lint_auto_find_test_dependencies()
 endif()
-
-# Copy necessary files to designated locations in the project
-install (
-  DIRECTORY launch meshes rviz urdf
-  DESTINATION share/${PROJECT_NAME}
-)
 
 ament_package()
