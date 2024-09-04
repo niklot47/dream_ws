@@ -1,0 +1,89 @@
+[0.076s] Invoking command in '/root/dream_ws/build/ros2_control_demo_example_10': AMENT_PREFIX_PATH=/root/dream_ws/install/ros2_control_demo_testing:/root/dream_ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/dream_ws/install/ros2_control_demo_description:/root/dream_ws/install/ros2_control_demo_example_7:/root/dream_ws/install/ros2_control_demo_example_2:/root/dream_ws/install/kr600:/root/dev_ws/install/simple_bot_config:/root/dev_ws/install/movbot_config:/root/dev_ws/install/simple_bot:/root/dev_ws/install/moveit_demo:/root/dev_ws/install/cobot_simulation_config:/root/dev_ws/install/cobot_simulation:/root/dev_ws/install/basic_mobile_robot:/root/dev_ws/install/arm6axis:/opt/ros/humble PYTHONPATH=/root/dream_ws/install/ros2_control_demo_testing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /root/dream_ws/src/ros2_control_demos/example_10 -DCMAKE_INSTALL_PREFIX=/root/dream_ws/install/ros2_control_demo_example_10
+[0.223s] -- The CXX compiler identification is GNU 11.4.0
+[0.239s] -- Detecting CXX compiler ABI info
+[0.431s] -- Detecting CXX compiler ABI info - done
+[0.452s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.453s] -- Detecting CXX compile features
+[0.454s] -- Detecting CXX compile features - done
+[0.467s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.807s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.070s] -- Found hardware_interface: 2.42.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[1.194s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.212s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.238s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.275s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.322s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.947s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.956s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.036s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.134s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.140s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.169s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.181s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.194s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.216s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.244s] -- Looking for C++ include pthread.h
+[2.405s] -- Looking for C++ include pthread.h - found
+[2.405s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.613s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.615s] -- Found Threads: TRUE  
+[2.772s] -- Found controller_interface: 2.42.0 (/opt/ros/humble/share/controller_interface/cmake)
+[2.833s] -- Found ament_cmake_pytest: 1.3.10 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[4.999s] -- Configuring done
+[5.105s] -- Generating done
+[5.106s] -- Build files have been written to: /root/dream_ws/build/ros2_control_demo_example_10
+[5.119s] Invoked command in '/root/dream_ws/build/ros2_control_demo_example_10' returned '0': AMENT_PREFIX_PATH=/root/dream_ws/install/ros2_control_demo_testing:/root/dream_ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/dream_ws/install/ros2_control_demo_description:/root/dream_ws/install/ros2_control_demo_example_7:/root/dream_ws/install/ros2_control_demo_example_2:/root/dream_ws/install/kr600:/root/dev_ws/install/simple_bot_config:/root/dev_ws/install/movbot_config:/root/dev_ws/install/simple_bot:/root/dev_ws/install/moveit_demo:/root/dev_ws/install/cobot_simulation_config:/root/dev_ws/install/cobot_simulation:/root/dev_ws/install/basic_mobile_robot:/root/dev_ws/install/arm6axis:/opt/ros/humble PYTHONPATH=/root/dream_ws/install/ros2_control_demo_testing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /root/dream_ws/src/ros2_control_demos/example_10 -DCMAKE_INSTALL_PREFIX=/root/dream_ws/install/ros2_control_demo_example_10
+[5.120s] Invoking command in '/root/dream_ws/build/ros2_control_demo_example_10': AMENT_PREFIX_PATH=/root/dream_ws/install/ros2_control_demo_testing:/root/dream_ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/dream_ws/install/ros2_control_demo_description:/root/dream_ws/install/ros2_control_demo_example_7:/root/dream_ws/install/ros2_control_demo_example_2:/root/dream_ws/install/kr600:/root/dev_ws/install/simple_bot_config:/root/dev_ws/install/movbot_config:/root/dev_ws/install/simple_bot:/root/dev_ws/install/moveit_demo:/root/dev_ws/install/cobot_simulation_config:/root/dev_ws/install/cobot_simulation:/root/dev_ws/install/basic_mobile_robot:/root/dev_ws/install/arm6axis:/opt/ros/humble PYTHONPATH=/root/dream_ws/install/ros2_control_demo_testing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/dream_ws/build/ros2_control_demo_example_10 -- -j12 -l12
+[5.241s] [ 33%] [32mBuilding CXX object CMakeFiles/ros2_control_demo_example_10.dir/hardware/rrbot.cpp.o[0m
+[5.261s] [ 66%] [32mBuilding CXX object CMakeFiles/ros2_control_demo_example_10.dir/controllers/gpio_controller.cpp.o[0m
+[23.120s] [100%] [32m[1mLinking CXX shared library libros2_control_demo_example_10.so[0m
+[23.835s] [100%] Built target ros2_control_demo_example_10
+[23.845s] Invoked command in '/root/dream_ws/build/ros2_control_demo_example_10' returned '0': AMENT_PREFIX_PATH=/root/dream_ws/install/ros2_control_demo_testing:/root/dream_ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/dream_ws/install/ros2_control_demo_description:/root/dream_ws/install/ros2_control_demo_example_7:/root/dream_ws/install/ros2_control_demo_example_2:/root/dream_ws/install/kr600:/root/dev_ws/install/simple_bot_config:/root/dev_ws/install/movbot_config:/root/dev_ws/install/simple_bot:/root/dev_ws/install/moveit_demo:/root/dev_ws/install/cobot_simulation_config:/root/dev_ws/install/cobot_simulation:/root/dev_ws/install/basic_mobile_robot:/root/dev_ws/install/arm6axis:/opt/ros/humble PYTHONPATH=/root/dream_ws/install/ros2_control_demo_testing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/dream_ws/build/ros2_control_demo_example_10 -- -j12 -l12
+[23.878s] Invoking command in '/root/dream_ws/build/ros2_control_demo_example_10': AMENT_PREFIX_PATH=/root/dream_ws/install/ros2_control_demo_testing:/root/dream_ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/dream_ws/install/ros2_control_demo_description:/root/dream_ws/install/ros2_control_demo_example_7:/root/dream_ws/install/ros2_control_demo_example_2:/root/dream_ws/install/kr600:/root/dev_ws/install/simple_bot_config:/root/dev_ws/install/movbot_config:/root/dev_ws/install/simple_bot:/root/dev_ws/install/moveit_demo:/root/dev_ws/install/cobot_simulation_config:/root/dev_ws/install/cobot_simulation:/root/dev_ws/install/basic_mobile_robot:/root/dev_ws/install/arm6axis:/opt/ros/humble PYTHONPATH=/root/dream_ws/install/ros2_control_demo_testing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/dream_ws/build/ros2_control_demo_example_10
+[23.883s] -- Install configuration: ""
+[23.884s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_10/share/ros2_control_demo_example_10/ros2_control_demo_example_10.xml
+[23.884s] -- Up-to-date: /root/dream_ws/install/ros2_control_demo_example_10/share/ros2_control_demo_example_10/ros2_control_demo_example_10.xml
+[23.884s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_10/include/ros2_control_demo_example_10
+[23.884s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_10/include/ros2_control_demo_example_10/ros2_control_demo_example_10
+[23.885s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_10/include/ros2_control_demo_example_10/ros2_control_demo_example_10/rrbot.hpp
+[23.885s] -- Up-to-date: /root/dream_ws/install/ros2_control_demo_example_10/include/ros2_control_demo_example_10
+[23.885s] -- Up-to-date: /root/dream_ws/install/ros2_control_demo_example_10/include/ros2_control_demo_example_10/ros2_control_demo_example_10
+[23.885s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_10/include/ros2_control_demo_example_10/ros2_control_demo_example_10/gpio_controller.hpp
+[23.885s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_10/share/ros2_control_demo_example_10/launch
+[23.885s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_10/share/ros2_control_demo_example_10/launch/view_robot.launch.py
+[23.886s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_10/share/ros2_control_demo_example_10/ros2_control
+[23.886s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_10/share/ros2_control_demo_example_10/ros2_control/rrbot.ros2_control.xacro
+[23.886s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_10/share/ros2_control_demo_example_10/urdf
+[23.886s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_10/share/ros2_control_demo_example_10/urdf/rrbot.urdf.xacro
+[23.886s] -- Up-to-date: /root/dream_ws/install/ros2_control_demo_example_10/share/ros2_control_demo_example_10/launch
+[23.887s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_10/share/ros2_control_demo_example_10/launch/test_forward_position_controller.launch.py
+[23.887s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_10/share/ros2_control_demo_example_10/launch/rrbot.launch.py
+[23.887s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_10/share/ros2_control_demo_example_10/config
+[23.887s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_10/share/ros2_control_demo_example_10/config/rrbot_controllers.yaml
+[23.887s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_10/share/ros2_control_demo_example_10/config/rrbot_forward_position_publisher.yaml
+[23.887s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_10/lib/libros2_control_demo_example_10.so
+[23.894s] -- Set runtime path of "/root/dream_ws/install/ros2_control_demo_example_10/lib/libros2_control_demo_example_10.so" to ""
+[23.894s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_10/share/ros2_control_demo_example_10/environment/library_path.sh
+[23.895s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_10/share/ros2_control_demo_example_10/environment/library_path.dsv
+[23.895s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_10/share/ament_index/resource_index/package_run_dependencies/ros2_control_demo_example_10
+[23.895s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_10/share/ament_index/resource_index/parent_prefix_path/ros2_control_demo_example_10
+[23.896s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_10/share/ros2_control_demo_example_10/environment/ament_prefix_path.sh
+[23.896s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_10/share/ros2_control_demo_example_10/environment/ament_prefix_path.dsv
+[23.896s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_10/share/ros2_control_demo_example_10/environment/path.sh
+[23.896s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_10/share/ros2_control_demo_example_10/environment/path.dsv
+[23.896s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_10/share/ros2_control_demo_example_10/local_setup.bash
+[23.897s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_10/share/ros2_control_demo_example_10/local_setup.sh
+[23.897s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_10/share/ros2_control_demo_example_10/local_setup.zsh
+[23.897s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_10/share/ros2_control_demo_example_10/local_setup.dsv
+[23.897s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_10/share/ros2_control_demo_example_10/package.dsv
+[23.897s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_10/share/ament_index/resource_index/packages/ros2_control_demo_example_10
+[23.898s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_10/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/ros2_control_demo_example_10
+[23.898s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_10/share/ament_index/resource_index/controller_interface__pluginlib__plugin/ros2_control_demo_example_10
+[23.898s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_10/share/ros2_control_demo_example_10/cmake/export_ros2_control_demo_example_10Export.cmake
+[23.898s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_10/share/ros2_control_demo_example_10/cmake/export_ros2_control_demo_example_10Export-noconfig.cmake
+[23.898s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_10/share/ros2_control_demo_example_10/cmake/ament_cmake_export_targets-extras.cmake
+[23.899s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_10/share/ros2_control_demo_example_10/cmake/ament_cmake_export_dependencies-extras.cmake
+[23.899s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_10/share/ros2_control_demo_example_10/cmake/ros2_control_demo_example_10Config.cmake
+[23.899s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_10/share/ros2_control_demo_example_10/cmake/ros2_control_demo_example_10Config-version.cmake
+[23.899s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_10/share/ros2_control_demo_example_10/package.xml
+[23.902s] Invoked command in '/root/dream_ws/build/ros2_control_demo_example_10' returned '0': AMENT_PREFIX_PATH=/root/dream_ws/install/ros2_control_demo_testing:/root/dream_ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/dream_ws/install/ros2_control_demo_description:/root/dream_ws/install/ros2_control_demo_example_7:/root/dream_ws/install/ros2_control_demo_example_2:/root/dream_ws/install/kr600:/root/dev_ws/install/simple_bot_config:/root/dev_ws/install/movbot_config:/root/dev_ws/install/simple_bot:/root/dev_ws/install/moveit_demo:/root/dev_ws/install/cobot_simulation_config:/root/dev_ws/install/cobot_simulation:/root/dev_ws/install/basic_mobile_robot:/root/dev_ws/install/arm6axis:/opt/ros/humble PYTHONPATH=/root/dream_ws/install/ros2_control_demo_testing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/dream_ws/build/ros2_control_demo_example_10

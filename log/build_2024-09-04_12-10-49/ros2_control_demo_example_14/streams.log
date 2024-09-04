@@ -1,0 +1,31 @@
+[0.077s] Invoking command in '/root/dream_ws/build/ros2_control_demo_example_14': AMENT_PREFIX_PATH=/root/dream_ws/install/ros2_control_demo_testing:/root/dream_ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/dream_ws/install/ros2_control_demo_description:/root/dream_ws/install/kr600:/root/dev_ws/install/simple_bot_config:/root/dev_ws/install/movbot_config:/root/dev_ws/install/simple_bot:/root/dev_ws/install/moveit_demo:/root/dev_ws/install/cobot_simulation_config:/root/dev_ws/install/cobot_simulation:/root/dev_ws/install/basic_mobile_robot:/root/dev_ws/install/arm6axis:/opt/ros/humble PYTHONPATH=/root/dream_ws/install/ros2_control_demo_testing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /root/dream_ws/src/ros2_control_demos/example_14 -DCMAKE_INSTALL_PREFIX=/root/dream_ws/install/ros2_control_demo_example_14
+[0.244s] -- The CXX compiler identification is GNU 11.4.0
+[0.257s] -- Detecting CXX compiler ABI info
+[0.434s] -- Detecting CXX compiler ABI info - done
+[0.459s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.460s] -- Detecting CXX compile features
+[0.461s] -- Detecting CXX compile features - done
+[0.476s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.794s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.028s] -- Found hardware_interface: 2.42.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[1.153s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.171s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.201s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.238s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.287s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.919s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.928s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.007s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.110s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.117s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.152s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.160s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.176s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.199s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.231s] -- Looking for C++ include pthread.h
+[2.397s] -- Looking for C++ include pthread.h - found
+[2.398s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.579s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.582s] -- Found Threads: TRUE  
+[2.741s] -- Found realtime_tools: 2.5.0 (/opt/ros/humble/share/realtime_tools/cmake)
+[2.810s] -- Found ament_cmake_pytest: 1.3.10 (/opt/ros/humble/share/ament_cmake_pytest/cmake)

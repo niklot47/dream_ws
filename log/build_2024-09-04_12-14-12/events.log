@@ -1,0 +1,384 @@
+[0.000000] (-) TimerEvent: {}
+[0.000409] (kr600) JobQueued: {'identifier': 'kr600', 'dependencies': OrderedDict()}
+[0.000475] (ros2_control_demo_example_2) JobQueued: {'identifier': 'ros2_control_demo_example_2', 'dependencies': OrderedDict()}
+[0.000528] (ros2_control_demo_example_7) JobQueued: {'identifier': 'ros2_control_demo_example_7', 'dependencies': OrderedDict()}
+[0.000580] (kr600) JobStarted: {'identifier': 'kr600'}
+[0.010660] (ros2_control_demo_example_2) JobStarted: {'identifier': 'ros2_control_demo_example_2'}
+[0.017113] (ros2_control_demo_example_7) JobStarted: {'identifier': 'ros2_control_demo_example_7'}
+[0.024143] (kr600) JobProgress: {'identifier': 'kr600', 'progress': 'cmake'}
+[0.024672] (kr600) Command: {'cmd': ['/usr/bin/cmake', '/root/dream_ws/src/kr600', '-DCMAKE_INSTALL_PREFIX=/root/dream_ws/install/kr600'], 'cwd': '/root/dream_ws/build/kr600', 'env': OrderedDict([('HOSTNAME', '45d763dc10b5'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/dream_ws/install:/root/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/dream_ws/install/kr600:/root/dev_ws/install/simple_bot_config:/root/dev_ws/install/movbot_config:/root/dev_ws/install/simple_bot:/root/dev_ws/install/moveit_demo:/root/dev_ws/install/cobot_simulation_config:/root/dev_ws/install/cobot_simulation:/root/dev_ws/install/basic_mobile_robot:/root/dev_ws/install/arm6axis:/opt/ros/humble'), ('PWD', '/root/dream_ws/build/kr600'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/dream_ws/install/kr600:/root/dev_ws/install/simple_bot_config:/root/dev_ws/install/movbot_config:/root/dev_ws/install/simple_bot:/root/dev_ws/install/moveit_demo:/root/dev_ws/install/cobot_simulation_config:/root/dev_ws/install/cobot_simulation:/root/dev_ws/install/basic_mobile_robot:/root/dev_ws/install/arm6axis:/opt/ros/humble')]), 'shell': False}
+[0.028046] (ros2_control_demo_example_2) JobProgress: {'identifier': 'ros2_control_demo_example_2', 'progress': 'cmake'}
+[0.029075] (ros2_control_demo_example_2) Command: {'cmd': ['/usr/bin/cmake', '/root/dream_ws/src/example_2', '-DCMAKE_INSTALL_PREFIX=/root/dream_ws/install/ros2_control_demo_example_2'], 'cwd': '/root/dream_ws/build/ros2_control_demo_example_2', 'env': OrderedDict([('HOSTNAME', '45d763dc10b5'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/dream_ws/install:/root/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/dream_ws/install/kr600:/root/dev_ws/install/simple_bot_config:/root/dev_ws/install/movbot_config:/root/dev_ws/install/simple_bot:/root/dev_ws/install/moveit_demo:/root/dev_ws/install/cobot_simulation_config:/root/dev_ws/install/cobot_simulation:/root/dev_ws/install/basic_mobile_robot:/root/dev_ws/install/arm6axis:/opt/ros/humble'), ('PWD', '/root/dream_ws/build/ros2_control_demo_example_2'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/dream_ws/install/kr600:/root/dev_ws/install/simple_bot_config:/root/dev_ws/install/movbot_config:/root/dev_ws/install/simple_bot:/root/dev_ws/install/moveit_demo:/root/dev_ws/install/cobot_simulation_config:/root/dev_ws/install/cobot_simulation:/root/dev_ws/install/basic_mobile_robot:/root/dev_ws/install/arm6axis:/opt/ros/humble')]), 'shell': False}
+[0.033029] (ros2_control_demo_example_7) JobProgress: {'identifier': 'ros2_control_demo_example_7', 'progress': 'cmake'}
+[0.033996] (ros2_control_demo_example_7) Command: {'cmd': ['/usr/bin/cmake', '/root/dream_ws/src/example_7', '-DCMAKE_INSTALL_PREFIX=/root/dream_ws/install/ros2_control_demo_example_7'], 'cwd': '/root/dream_ws/build/ros2_control_demo_example_7', 'env': OrderedDict([('HOSTNAME', '45d763dc10b5'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/dream_ws/install:/root/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/dream_ws/install/kr600:/root/dev_ws/install/simple_bot_config:/root/dev_ws/install/movbot_config:/root/dev_ws/install/simple_bot:/root/dev_ws/install/moveit_demo:/root/dev_ws/install/cobot_simulation_config:/root/dev_ws/install/cobot_simulation:/root/dev_ws/install/basic_mobile_robot:/root/dev_ws/install/arm6axis:/opt/ros/humble'), ('PWD', '/root/dream_ws/build/ros2_control_demo_example_7'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/dream_ws/install/kr600:/root/dev_ws/install/simple_bot_config:/root/dev_ws/install/movbot_config:/root/dev_ws/install/simple_bot:/root/dev_ws/install/moveit_demo:/root/dev_ws/install/cobot_simulation_config:/root/dev_ws/install/cobot_simulation:/root/dev_ws/install/basic_mobile_robot:/root/dev_ws/install/arm6axis:/opt/ros/humble')]), 'shell': False}
+[0.082847] (kr600) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.094162] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.098833] (-) TimerEvent: {}
+[0.099482] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.103198] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.108429] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.141690] (kr600) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.150600] (kr600) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.183202] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.188091] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.195107] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.195426] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.195996] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.198967] (-) TimerEvent: {}
+[0.200718] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.201102] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.201706] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.204069] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.209603] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.219165] (kr600) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.231092] (kr600) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.231368] (kr600) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.231861] (kr600) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.235468] (kr600) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299152] (-) TimerEvent: {}
+[0.313005] (kr600) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.324767] (kr600) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.325083] (kr600) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.325690] (kr600) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.330342] (kr600) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.363041] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.370831] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.399316] (-) TimerEvent: {}
+[0.481670] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Found hardware_interface: 2.42.0 (/opt/ros/humble/share/hardware_interface/cmake)\n'}
+[0.486023] (kr600) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.490083] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)\n'}
+[0.499479] (-) TimerEvent: {}
+[0.554020] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.569198] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.578029] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Found hardware_interface: 2.42.0 (/opt/ros/humble/share/hardware_interface/cmake)\n'}
+[0.588417] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.599646] (-) TimerEvent: {}
+[0.611185] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.638222] (kr600) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.649878] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.650860] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.658586] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.673401] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.693740] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.699755] (-) TimerEvent: {}
+[0.717364] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.751866] (kr600) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.752652] (kr600) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.753518] (kr600) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.755371] (kr600) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.756948] (kr600) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.761533] (kr600) StdoutLine: {'line': b'-- Generating done\n'}
+[0.763194] (kr600) StdoutLine: {'line': b'-- Build files have been written to: /root/dream_ws/build/kr600\n'}
+[0.768315] (kr600) CommandEnded: {'returncode': 0}
+[0.770293] (kr600) JobProgress: {'identifier': 'kr600', 'progress': 'build'}
+[0.770362] (kr600) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/dream_ws/build/kr600', '--', '-j12', '-l12'], 'cwd': '/root/dream_ws/build/kr600', 'env': OrderedDict([('HOSTNAME', '45d763dc10b5'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/dream_ws/install:/root/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/dream_ws/install/kr600:/root/dev_ws/install/simple_bot_config:/root/dev_ws/install/movbot_config:/root/dev_ws/install/simple_bot:/root/dev_ws/install/moveit_demo:/root/dev_ws/install/cobot_simulation_config:/root/dev_ws/install/cobot_simulation:/root/dev_ws/install/basic_mobile_robot:/root/dev_ws/install/arm6axis:/opt/ros/humble'), ('PWD', '/root/dream_ws/build/kr600'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/dream_ws/install/kr600:/root/dev_ws/install/simple_bot_config:/root/dev_ws/install/movbot_config:/root/dev_ws/install/simple_bot:/root/dev_ws/install/moveit_demo:/root/dev_ws/install/cobot_simulation_config:/root/dev_ws/install/cobot_simulation:/root/dev_ws/install/basic_mobile_robot:/root/dev_ws/install/arm6axis:/opt/ros/humble')]), 'shell': False}
+[0.799899] (-) TimerEvent: {}
+[0.813184] (kr600) CommandEnded: {'returncode': 0}
+[0.839742] (kr600) JobProgress: {'identifier': 'kr600', 'progress': 'install'}
+[0.849298] (kr600) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/dream_ws/build/kr600'], 'cwd': '/root/dream_ws/build/kr600', 'env': OrderedDict([('HOSTNAME', '45d763dc10b5'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/dream_ws/install:/root/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/dream_ws/install/kr600:/root/dev_ws/install/simple_bot_config:/root/dev_ws/install/movbot_config:/root/dev_ws/install/simple_bot:/root/dev_ws/install/moveit_demo:/root/dev_ws/install/cobot_simulation_config:/root/dev_ws/install/cobot_simulation:/root/dev_ws/install/basic_mobile_robot:/root/dev_ws/install/arm6axis:/opt/ros/humble'), ('PWD', '/root/dream_ws/build/kr600'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/dream_ws/install/kr600:/root/dev_ws/install/simple_bot_config:/root/dev_ws/install/movbot_config:/root/dev_ws/install/simple_bot:/root/dev_ws/install/moveit_demo:/root/dev_ws/install/cobot_simulation_config:/root/dev_ws/install/cobot_simulation:/root/dev_ws/install/basic_mobile_robot:/root/dev_ws/install/arm6axis:/opt/ros/humble')]), 'shell': False}
+[0.855715] (kr600) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.855908] (kr600) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/kr600/share/kr600/launch\n'}
+[0.856096] (kr600) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/kr600/share/kr600/launch/kr600.launch.py\n'}
+[0.856245] (kr600) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/kr600/share/kr600/launch/kr600_1.launch.py\n'}
+[0.856448] (kr600) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/kr600/share/kr600/meshes\n'}
+[0.856536] (kr600) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/kr600/share/kr600/meshes/link6.stl\n'}
+[0.856984] (kr600) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/kr600/share/kr600/meshes/base_link.stl\n'}
+[0.857969] (kr600) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/kr600/share/kr600/meshes/link4.stl\n'}
+[0.858920] (kr600) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/kr600/share/kr600/meshes/link5.stl\n'}
+[0.859712] (kr600) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/kr600/share/kr600/meshes/link3.stl\n'}
+[0.861771] (kr600) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/kr600/share/kr600/meshes/link2.stl\n'}
+[0.863321] (kr600) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/kr600/share/kr600/meshes/description.txt\n'}
+[0.863798] (kr600) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/kr600/share/kr600/meshes/link1.stl\n'}
+[0.865125] (kr600) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/kr600/share/kr600/rviz\n'}
+[0.865376] (kr600) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/kr600/share/kr600/rviz/config.rviz\n'}
+[0.865703] (kr600) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/kr600/share/kr600/urdf\n'}
+[0.865822] (kr600) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/kr600/share/kr600/urdf/model.urdf.xacro\n'}
+[0.866014] (kr600) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/kr600/share/ament_index/resource_index/package_run_dependencies/kr600\n'}
+[0.866382] (kr600) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/kr600/share/ament_index/resource_index/parent_prefix_path/kr600\n'}
+[0.866629] (kr600) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/kr600/share/kr600/environment/ament_prefix_path.sh\n'}
+[0.866853] (kr600) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/kr600/share/kr600/environment/ament_prefix_path.dsv\n'}
+[0.867196] (kr600) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/kr600/share/kr600/environment/path.sh\n'}
+[0.867469] (kr600) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/kr600/share/kr600/environment/path.dsv\n'}
+[0.867574] (kr600) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/kr600/share/kr600/local_setup.bash\n'}
+[0.867767] (kr600) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/kr600/share/kr600/local_setup.sh\n'}
+[0.867930] (kr600) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/kr600/share/kr600/local_setup.zsh\n'}
+[0.868274] (kr600) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/kr600/share/kr600/local_setup.dsv\n'}
+[0.868508] (kr600) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/kr600/share/kr600/package.dsv\n'}
+[0.868686] (kr600) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/kr600/share/ament_index/resource_index/packages/kr600\n'}
+[0.868834] (kr600) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/kr600/share/kr600/cmake/kr600Config.cmake\n'}
+[0.868920] (kr600) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/kr600/share/kr600/cmake/kr600Config-version.cmake\n'}
+[0.869004] (kr600) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/kr600/share/kr600/package.xml\n'}
+[0.870753] (kr600) CommandEnded: {'returncode': 0}
+[0.900026] (-) TimerEvent: {}
+[0.918737] (kr600) JobEnded: {'identifier': 'kr600', 'rc': 0}
+[1.000191] (-) TimerEvent: {}
+[1.059582] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.065190] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.066154] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.070666] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.100369] (-) TimerEvent: {}
+[1.108367] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.113812] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.162407] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.166129] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.166420] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.169530] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.186547] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.189984] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.192823] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.196467] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.200507] (-) TimerEvent: {}
+[1.203282] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.206075] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.215981] (ros2_control_demo_example_2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.217852] (ros2_control_demo_example_7) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.231302] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Looking for C++ include pthread.h\n'}
+[1.233261] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Looking for C++ include pthread.h\n'}
+[1.300662] (-) TimerEvent: {}
+[1.313419] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Looking for C++ include pthread.h - found\n'}
+[1.314031] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Looking for C++ include pthread.h - found\n'}
+[1.314256] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.314353] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.400815] (-) TimerEvent: {}
+[1.402623] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.402989] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.404313] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.404475] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.484684] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Found kdl_parser: 2.6.4 (/opt/ros/humble/share/kdl_parser/cmake)\n'}
+[1.495568] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Found ament_cmake_pytest: 1.3.10 (/opt/ros/humble/share/ament_cmake_pytest/cmake)\n'}
+[1.500907] (-) TimerEvent: {}
+[1.506219] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[1.507797] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.508074] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.516268] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Found controller_interface: 2.42.0 (/opt/ros/humble/share/controller_interface/cmake)\n'}
+[1.528012] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Found realtime_tools: 2.5.0 (/opt/ros/humble/share/realtime_tools/cmake)\n'}
+[1.577328] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Found ament_cmake_pytest: 1.3.10 (/opt/ros/humble/share/ament_cmake_pytest/cmake)\n'}
+[1.601102] (-) TimerEvent: {}
+[1.701484] (-) TimerEvent: {}
+[1.801821] (-) TimerEvent: {}
+[1.902156] (-) TimerEvent: {}
+[2.002513] (-) TimerEvent: {}
+[2.102848] (-) TimerEvent: {}
+[2.203168] (-) TimerEvent: {}
+[2.303516] (-) TimerEvent: {}
+[2.403876] (-) TimerEvent: {}
+[2.504211] (-) TimerEvent: {}
+[2.547298] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.583325] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Generating done\n'}
+[2.585200] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Build files have been written to: /root/dream_ws/build/ros2_control_demo_example_2\n'}
+[2.594268] (ros2_control_demo_example_2) CommandEnded: {'returncode': 0}
+[2.594846] (ros2_control_demo_example_2) JobProgress: {'identifier': 'ros2_control_demo_example_2', 'progress': 'build'}
+[2.595934] (ros2_control_demo_example_2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/dream_ws/build/ros2_control_demo_example_2', '--', '-j12', '-l12'], 'cwd': '/root/dream_ws/build/ros2_control_demo_example_2', 'env': OrderedDict([('HOSTNAME', '45d763dc10b5'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/dream_ws/install:/root/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/dream_ws/install/kr600:/root/dev_ws/install/simple_bot_config:/root/dev_ws/install/movbot_config:/root/dev_ws/install/simple_bot:/root/dev_ws/install/moveit_demo:/root/dev_ws/install/cobot_simulation_config:/root/dev_ws/install/cobot_simulation:/root/dev_ws/install/basic_mobile_robot:/root/dev_ws/install/arm6axis:/opt/ros/humble'), ('PWD', '/root/dream_ws/build/ros2_control_demo_example_2'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/dream_ws/install/kr600:/root/dev_ws/install/simple_bot_config:/root/dev_ws/install/movbot_config:/root/dev_ws/install/simple_bot:/root/dev_ws/install/moveit_demo:/root/dev_ws/install/cobot_simulation_config:/root/dev_ws/install/cobot_simulation:/root/dev_ws/install/basic_mobile_robot:/root/dev_ws/install/arm6axis:/opt/ros/humble')]), 'shell': False}
+[2.604365] (-) TimerEvent: {}
+[2.639540] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.641686] (ros2_control_demo_example_2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ros2_control_demo_example_2.dir/hardware/diffbot_system.cpp.o\x1b[0m\n'}
+[2.682366] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Generating done\n'}
+[2.684546] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Build files have been written to: /root/dream_ws/build/ros2_control_demo_example_7\n'}
+[2.693982] (ros2_control_demo_example_7) CommandEnded: {'returncode': 0}
+[2.694433] (ros2_control_demo_example_7) JobProgress: {'identifier': 'ros2_control_demo_example_7', 'progress': 'build'}
+[2.695402] (ros2_control_demo_example_7) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/dream_ws/build/ros2_control_demo_example_7', '--', '-j12', '-l12'], 'cwd': '/root/dream_ws/build/ros2_control_demo_example_7', 'env': OrderedDict([('HOSTNAME', '45d763dc10b5'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/dream_ws/install:/root/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/dream_ws/install/kr600:/root/dev_ws/install/simple_bot_config:/root/dev_ws/install/movbot_config:/root/dev_ws/install/simple_bot:/root/dev_ws/install/moveit_demo:/root/dev_ws/install/cobot_simulation_config:/root/dev_ws/install/cobot_simulation:/root/dev_ws/install/basic_mobile_robot:/root/dev_ws/install/arm6axis:/opt/ros/humble'), ('PWD', '/root/dream_ws/build/ros2_control_demo_example_7'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/dream_ws/install/kr600:/root/dev_ws/install/simple_bot_config:/root/dev_ws/install/movbot_config:/root/dev_ws/install/simple_bot:/root/dev_ws/install/moveit_demo:/root/dev_ws/install/cobot_simulation_config:/root/dev_ws/install/cobot_simulation:/root/dev_ws/install/basic_mobile_robot:/root/dev_ws/install/arm6axis:/opt/ros/humble')]), 'shell': False}
+[2.704541] (-) TimerEvent: {}
+[2.741959] (ros2_control_demo_example_7) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/send_trajectory.dir/reference_generator/send_trajectory.cpp.o\x1b[0m\n'}
+[2.742474] (ros2_control_demo_example_7) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/ros2_control_demo_example_7.dir/hardware/r6bot_hardware.cpp.o\x1b[0m\n'}
+[2.742787] (ros2_control_demo_example_7) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/ros2_control_demo_example_7.dir/controller/r6bot_controller.cpp.o\x1b[0m\n'}
+[2.804729] (-) TimerEvent: {}
+[2.905026] (-) TimerEvent: {}
+[3.005365] (-) TimerEvent: {}
+[3.105701] (-) TimerEvent: {}
+[3.206045] (-) TimerEvent: {}
+[3.306398] (-) TimerEvent: {}
+[3.406757] (-) TimerEvent: {}
+[3.507098] (-) TimerEvent: {}
+[3.607398] (-) TimerEvent: {}
+[3.707807] (-) TimerEvent: {}
+[3.808188] (-) TimerEvent: {}
+[3.908535] (-) TimerEvent: {}
+[4.008882] (-) TimerEvent: {}
+[4.109230] (-) TimerEvent: {}
+[4.209633] (-) TimerEvent: {}
+[4.310041] (-) TimerEvent: {}
+[4.410489] (-) TimerEvent: {}
+[4.510919] (-) TimerEvent: {}
+[4.611325] (-) TimerEvent: {}
+[4.711728] (-) TimerEvent: {}
+[4.812082] (-) TimerEvent: {}
+[4.912471] (-) TimerEvent: {}
+[5.012880] (-) TimerEvent: {}
+[5.113243] (-) TimerEvent: {}
+[5.213593] (-) TimerEvent: {}
+[5.313938] (-) TimerEvent: {}
+[5.414302] (-) TimerEvent: {}
+[5.514661] (-) TimerEvent: {}
+[5.615008] (-) TimerEvent: {}
+[5.715316] (-) TimerEvent: {}
+[5.815631] (-) TimerEvent: {}
+[5.915999] (-) TimerEvent: {}
+[6.016362] (-) TimerEvent: {}
+[6.116741] (-) TimerEvent: {}
+[6.217116] (-) TimerEvent: {}
+[6.317488] (-) TimerEvent: {}
+[6.417845] (-) TimerEvent: {}
+[6.518124] (-) TimerEvent: {}
+[6.618448] (-) TimerEvent: {}
+[6.718768] (-) TimerEvent: {}
+[6.819092] (-) TimerEvent: {}
+[6.907402] (ros2_control_demo_example_2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libros2_control_demo_example_2.so\x1b[0m\n'}
+[6.919251] (-) TimerEvent: {}
+[7.019618] (-) TimerEvent: {}
+[7.085385] (ros2_control_demo_example_2) StdoutLine: {'line': b'[100%] Built target ros2_control_demo_example_2\n'}
+[7.099258] (ros2_control_demo_example_2) CommandEnded: {'returncode': 0}
+[7.119713] (-) TimerEvent: {}
+[7.124636] (ros2_control_demo_example_2) JobProgress: {'identifier': 'ros2_control_demo_example_2', 'progress': 'install'}
+[7.125069] (ros2_control_demo_example_2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/dream_ws/build/ros2_control_demo_example_2'], 'cwd': '/root/dream_ws/build/ros2_control_demo_example_2', 'env': OrderedDict([('HOSTNAME', '45d763dc10b5'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/dream_ws/install:/root/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/dream_ws/install/kr600:/root/dev_ws/install/simple_bot_config:/root/dev_ws/install/movbot_config:/root/dev_ws/install/simple_bot:/root/dev_ws/install/moveit_demo:/root/dev_ws/install/cobot_simulation_config:/root/dev_ws/install/cobot_simulation:/root/dev_ws/install/basic_mobile_robot:/root/dev_ws/install/arm6axis:/opt/ros/humble'), ('PWD', '/root/dream_ws/build/ros2_control_demo_example_2'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/dream_ws/install/kr600:/root/dev_ws/install/simple_bot_config:/root/dev_ws/install/movbot_config:/root/dev_ws/install/simple_bot:/root/dev_ws/install/moveit_demo:/root/dev_ws/install/cobot_simulation_config:/root/dev_ws/install/cobot_simulation:/root/dev_ws/install/basic_mobile_robot:/root/dev_ws/install/arm6axis:/opt/ros/humble')]), 'shell': False}
+[7.132526] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.132844] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/ros2_control_demo_example_2.xml\n'}
+[7.132949] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/ros2_control_demo_example_2/include/ros2_control_demo_example_2\n'}
+[7.133121] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/ros2_control_demo_example_2/include/ros2_control_demo_example_2/ros2_control_demo_example_2\n'}
+[7.133215] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/ros2_control_demo_example_2/include/ros2_control_demo_example_2/ros2_control_demo_example_2/diffbot_system.hpp\n'}
+[7.133474] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/launch\n'}
+[7.133570] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/launch/view_robot.launch.py\n'}
+[7.133706] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/ros2_control\n'}
+[7.134068] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/ros2_control/diffbot.ros2_control.xacro\n'}
+[7.134227] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/urdf\n'}
+[7.134444] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/urdf/diffbot.urdf.xacro\n'}
+[7.134835] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Up-to-date: /root/dream_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/launch\n'}
+[7.134938] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/launch/diffbot.launch.py\n'}
+[7.135023] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/config\n'}
+[7.135105] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/config/diffbot_controllers.yaml\n'}
+[7.135187] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/ros2_control_demo_example_2/lib/libros2_control_demo_example_2.so\n'}
+[7.135734] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Set runtime path of "/root/dream_ws/install/ros2_control_demo_example_2/lib/libros2_control_demo_example_2.so" to ""\n'}
+[7.135966] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/environment/library_path.sh\n'}
+[7.136268] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/environment/library_path.dsv\n'}
+[7.136378] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/ros2_control_demo_example_2/share/ament_index/resource_index/package_run_dependencies/ros2_control_demo_example_2\n'}
+[7.136658] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/ros2_control_demo_example_2/share/ament_index/resource_index/parent_prefix_path/ros2_control_demo_example_2\n'}
+[7.136821] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/environment/ament_prefix_path.sh\n'}
+[7.137117] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/environment/ament_prefix_path.dsv\n'}
+[7.137228] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/environment/path.sh\n'}
+[7.137371] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/environment/path.dsv\n'}
+[7.137668] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/local_setup.bash\n'}
+[7.137832] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/local_setup.sh\n'}
+[7.138031] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/local_setup.zsh\n'}
+[7.138329] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/local_setup.dsv\n'}
+[7.138440] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/package.dsv\n'}
+[7.138638] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/ros2_control_demo_example_2/share/ament_index/resource_index/packages/ros2_control_demo_example_2\n'}
+[7.138811] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/ros2_control_demo_example_2/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/ros2_control_demo_example_2\n'}
+[7.139044] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/cmake/export_ros2_control_demo_example_2Export.cmake\n'}
+[7.139415] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/cmake/export_ros2_control_demo_example_2Export-noconfig.cmake\n'}
+[7.139671] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[7.139778] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.139864] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/cmake/ros2_control_demo_example_2Config.cmake\n'}
+[7.139946] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/cmake/ros2_control_demo_example_2Config-version.cmake\n'}
+[7.140028] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/package.xml\n'}
+[7.141136] (ros2_control_demo_example_2) CommandEnded: {'returncode': 0}
+[7.181171] (ros2_control_demo_example_2) JobEnded: {'identifier': 'ros2_control_demo_example_2', 'rc': 0}
+[7.219902] (-) TimerEvent: {}
+[7.320221] (-) TimerEvent: {}
+[7.420607] (-) TimerEvent: {}
+[7.520935] (-) TimerEvent: {}
+[7.621336] (-) TimerEvent: {}
+[7.721674] (-) TimerEvent: {}
+[7.822030] (-) TimerEvent: {}
+[7.922362] (-) TimerEvent: {}
+[8.022714] (-) TimerEvent: {}
+[8.123088] (-) TimerEvent: {}
+[8.223421] (-) TimerEvent: {}
+[8.323756] (-) TimerEvent: {}
+[8.424203] (-) TimerEvent: {}
+[8.524537] (-) TimerEvent: {}
+[8.624913] (-) TimerEvent: {}
+[8.725253] (-) TimerEvent: {}
+[8.825602] (-) TimerEvent: {}
+[8.925943] (-) TimerEvent: {}
+[8.934516] (ros2_control_demo_example_7) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX executable send_trajectory\x1b[0m\n'}
+[9.026128] (-) TimerEvent: {}
+[9.126465] (-) TimerEvent: {}
+[9.138896] (ros2_control_demo_example_7) StdoutLine: {'line': b'[ 80%] Built target send_trajectory\n'}
+[9.226619] (-) TimerEvent: {}
+[9.326944] (-) TimerEvent: {}
+[9.427239] (-) TimerEvent: {}
+[9.527548] (-) TimerEvent: {}
+[9.627902] (-) TimerEvent: {}
+[9.728255] (-) TimerEvent: {}
+[9.828536] (-) TimerEvent: {}
+[9.928883] (-) TimerEvent: {}
+[10.029215] (-) TimerEvent: {}
+[10.129539] (-) TimerEvent: {}
+[10.229861] (-) TimerEvent: {}
+[10.330185] (-) TimerEvent: {}
+[10.430482] (-) TimerEvent: {}
+[10.530794] (-) TimerEvent: {}
+[10.631146] (-) TimerEvent: {}
+[10.731469] (-) TimerEvent: {}
+[10.831765] (-) TimerEvent: {}
+[10.932118] (-) TimerEvent: {}
+[11.032444] (-) TimerEvent: {}
+[11.132769] (-) TimerEvent: {}
+[11.233080] (-) TimerEvent: {}
+[11.333379] (-) TimerEvent: {}
+[11.433721] (-) TimerEvent: {}
+[11.534043] (-) TimerEvent: {}
+[11.634377] (-) TimerEvent: {}
+[11.734668] (-) TimerEvent: {}
+[11.835010] (-) TimerEvent: {}
+[11.935326] (-) TimerEvent: {}
+[12.035672] (-) TimerEvent: {}
+[12.136003] (-) TimerEvent: {}
+[12.236372] (-) TimerEvent: {}
+[12.295488] (ros2_control_demo_example_7) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libros2_control_demo_example_7.so\x1b[0m\n'}
+[12.336541] (-) TimerEvent: {}
+[12.436933] (-) TimerEvent: {}
+[12.537258] (-) TimerEvent: {}
+[12.637599] (-) TimerEvent: {}
+[12.737973] (-) TimerEvent: {}
+[12.799552] (ros2_control_demo_example_7) StdoutLine: {'line': b'[100%] Built target ros2_control_demo_example_7\n'}
+[12.808471] (ros2_control_demo_example_7) CommandEnded: {'returncode': 0}
+[12.837541] (ros2_control_demo_example_7) JobProgress: {'identifier': 'ros2_control_demo_example_7', 'progress': 'install'}
+[12.839095] (ros2_control_demo_example_7) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/dream_ws/build/ros2_control_demo_example_7'], 'cwd': '/root/dream_ws/build/ros2_control_demo_example_7', 'env': OrderedDict([('HOSTNAME', '45d763dc10b5'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/dream_ws/install:/root/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/dream_ws/install/kr600:/root/dev_ws/install/simple_bot_config:/root/dev_ws/install/movbot_config:/root/dev_ws/install/simple_bot:/root/dev_ws/install/moveit_demo:/root/dev_ws/install/cobot_simulation_config:/root/dev_ws/install/cobot_simulation:/root/dev_ws/install/basic_mobile_robot:/root/dev_ws/install/arm6axis:/opt/ros/humble'), ('PWD', '/root/dream_ws/build/ros2_control_demo_example_7'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/dream_ws/install/kr600:/root/dev_ws/install/simple_bot_config:/root/dev_ws/install/movbot_config:/root/dev_ws/install/simple_bot:/root/dev_ws/install/moveit_demo:/root/dev_ws/install/cobot_simulation_config:/root/dev_ws/install/cobot_simulation:/root/dev_ws/install/basic_mobile_robot:/root/dev_ws/install/arm6axis:/opt/ros/humble')]), 'shell': False}
+[12.839465] (-) TimerEvent: {}
+[12.845670] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.846065] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/ros2_control_demo_example_7.xml\n'}
+[12.846333] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Up-to-date: /root/dream_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/ros2_control_demo_example_7.xml\n'}
+[12.846589] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/ros2_control_demo_example_7/include/ros2_control_demo_example_7\n'}
+[12.846840] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/ros2_control_demo_example_7/include/ros2_control_demo_example_7/ros2_control_demo_example_7\n'}
+[12.846971] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/ros2_control_demo_example_7/include/ros2_control_demo_example_7/ros2_control_demo_example_7/r6bot_hardware.hpp\n'}
+[12.847306] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/launch\n'}
+[12.847604] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/launch/view_r6bot.launch.py\n'}
+[12.847829] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/ros2_control\n'}
+[12.848016] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/ros2_control/r6bot.ros2_control.xacro\n'}
+[12.848134] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/urdf\n'}
+[12.848450] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/urdf/r6bot.urdf.xacro\n'}
+[12.848555] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Up-to-date: /root/dream_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/launch\n'}
+[12.848662] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/launch/r6bot_controller.launch.py\n'}
+[12.848770] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/launch/send_trajectory.launch.py\n'}
+[12.848881] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/config\n'}
+[12.848985] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/config/r6bot_controller.yaml\n'}
+[12.849084] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/ros2_control_demo_example_7/lib/ros2_control_demo_example_7/send_trajectory\n'}
+[12.849722] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Set runtime path of "/root/dream_ws/install/ros2_control_demo_example_7/lib/ros2_control_demo_example_7/send_trajectory" to ""\n'}
+[12.849832] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/ros2_control_demo_example_7/lib/libros2_control_demo_example_7.so\n'}
+[12.856117] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Set runtime path of "/root/dream_ws/install/ros2_control_demo_example_7/lib/libros2_control_demo_example_7.so" to ""\n'}
+[12.856440] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/environment/library_path.sh\n'}
+[12.856628] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/environment/library_path.dsv\n'}
+[12.856886] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/ros2_control_demo_example_7/share/ament_index/resource_index/package_run_dependencies/ros2_control_demo_example_7\n'}
+[12.857017] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/ros2_control_demo_example_7/share/ament_index/resource_index/parent_prefix_path/ros2_control_demo_example_7\n'}
+[12.857210] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/environment/ament_prefix_path.sh\n'}
+[12.857315] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/environment/ament_prefix_path.dsv\n'}
+[12.857495] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/environment/path.sh\n'}
+[12.857782] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/environment/path.dsv\n'}
+[12.857937] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/local_setup.bash\n'}
+[12.858151] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/local_setup.sh\n'}
+[12.858349] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/local_setup.zsh\n'}
+[12.858632] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/local_setup.dsv\n'}
+[12.858801] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/package.dsv\n'}
+[12.859097] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/ros2_control_demo_example_7/share/ament_index/resource_index/packages/ros2_control_demo_example_7\n'}
+[12.859216] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/ros2_control_demo_example_7/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/ros2_control_demo_example_7\n'}
+[12.859422] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/ros2_control_demo_example_7/share/ament_index/resource_index/controller_interface__pluginlib__plugin/ros2_control_demo_example_7\n'}
+[12.859739] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/cmake/export_ros2_control_demo_example_7Export.cmake\n'}
+[12.859897] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/cmake/export_ros2_control_demo_example_7Export-noconfig.cmake\n'}
+[12.860024] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[12.860200] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[12.860430] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/cmake/ros2_control_demo_example_7Config.cmake\n'}
+[12.860544] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/cmake/ros2_control_demo_example_7Config-version.cmake\n'}
+[12.860649] (ros2_control_demo_example_7) StdoutLine: {'line': b'-- Installing: /root/dream_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/package.xml\n'}
+[12.862577] (ros2_control_demo_example_7) CommandEnded: {'returncode': 0}
+[12.906954] (ros2_control_demo_example_7) JobEnded: {'identifier': 'ros2_control_demo_example_7', 'rc': 0}
+[12.908965] (-) EventReactorShutdown: {}

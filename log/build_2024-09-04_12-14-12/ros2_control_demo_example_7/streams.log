@@ -1,0 +1,96 @@
+[0.019s] Invoking command in '/root/dream_ws/build/ros2_control_demo_example_7': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/dream_ws/src/example_7 -DCMAKE_INSTALL_PREFIX=/root/dream_ws/install/ros2_control_demo_example_7
+[0.082s] -- The CXX compiler identification is GNU 11.4.0
+[0.091s] -- Detecting CXX compiler ABI info
+[0.171s] -- Detecting CXX compiler ABI info - done
+[0.184s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.184s] -- Detecting CXX compile features
+[0.185s] -- Detecting CXX compile features - done
+[0.193s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.354s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.473s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[0.561s] -- Found hardware_interface: 2.42.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[0.633s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.642s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.656s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.677s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.700s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.049s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.054s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.097s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.149s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.152s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.173s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.179s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.189s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.201s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.216s] -- Looking for C++ include pthread.h
+[1.296s] -- Looking for C++ include pthread.h - found
+[1.297s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.386s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.387s] -- Found Threads: TRUE  
+[1.468s] -- Found kdl_parser: 2.6.4 (/opt/ros/humble/share/kdl_parser/cmake)
+[1.489s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.491s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.491s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.499s] -- Found controller_interface: 2.42.0 (/opt/ros/humble/share/controller_interface/cmake)
+[1.511s] -- Found realtime_tools: 2.5.0 (/opt/ros/humble/share/realtime_tools/cmake)
+[1.560s] -- Found ament_cmake_pytest: 1.3.10 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[2.622s] -- Configuring done
+[2.665s] -- Generating done
+[2.668s] -- Build files have been written to: /root/dream_ws/build/ros2_control_demo_example_7
+[2.677s] Invoked command in '/root/dream_ws/build/ros2_control_demo_example_7' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/dream_ws/src/example_7 -DCMAKE_INSTALL_PREFIX=/root/dream_ws/install/ros2_control_demo_example_7
+[2.679s] Invoking command in '/root/dream_ws/build/ros2_control_demo_example_7': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/dream_ws/build/ros2_control_demo_example_7 -- -j12 -l12
+[2.725s] [ 20%] [32mBuilding CXX object CMakeFiles/send_trajectory.dir/reference_generator/send_trajectory.cpp.o[0m
+[2.725s] [ 40%] [32mBuilding CXX object CMakeFiles/ros2_control_demo_example_7.dir/hardware/r6bot_hardware.cpp.o[0m
+[2.726s] [ 60%] [32mBuilding CXX object CMakeFiles/ros2_control_demo_example_7.dir/controller/r6bot_controller.cpp.o[0m
+[8.917s] [ 80%] [32m[1mLinking CXX executable send_trajectory[0m
+[9.122s] [ 80%] Built target send_trajectory
+[12.278s] [100%] [32m[1mLinking CXX shared library libros2_control_demo_example_7.so[0m
+[12.783s] [100%] Built target ros2_control_demo_example_7
+[12.792s] Invoked command in '/root/dream_ws/build/ros2_control_demo_example_7' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/dream_ws/build/ros2_control_demo_example_7 -- -j12 -l12
+[12.822s] Invoking command in '/root/dream_ws/build/ros2_control_demo_example_7': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/dream_ws/build/ros2_control_demo_example_7
+[12.829s] -- Install configuration: ""
+[12.829s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/ros2_control_demo_example_7.xml
+[12.829s] -- Up-to-date: /root/dream_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/ros2_control_demo_example_7.xml
+[12.830s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_7/include/ros2_control_demo_example_7
+[12.830s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_7/include/ros2_control_demo_example_7/ros2_control_demo_example_7
+[12.830s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_7/include/ros2_control_demo_example_7/ros2_control_demo_example_7/r6bot_hardware.hpp
+[12.830s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/launch
+[12.831s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/launch/view_r6bot.launch.py
+[12.831s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/ros2_control
+[12.831s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/ros2_control/r6bot.ros2_control.xacro
+[12.831s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/urdf
+[12.831s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/urdf/r6bot.urdf.xacro
+[12.831s] -- Up-to-date: /root/dream_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/launch
+[12.832s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/launch/r6bot_controller.launch.py
+[12.832s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/launch/send_trajectory.launch.py
+[12.832s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/config
+[12.832s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/config/r6bot_controller.yaml
+[12.832s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_7/lib/ros2_control_demo_example_7/send_trajectory
+[12.833s] -- Set runtime path of "/root/dream_ws/install/ros2_control_demo_example_7/lib/ros2_control_demo_example_7/send_trajectory" to ""
+[12.833s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_7/lib/libros2_control_demo_example_7.so
+[12.839s] -- Set runtime path of "/root/dream_ws/install/ros2_control_demo_example_7/lib/libros2_control_demo_example_7.so" to ""
+[12.839s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/environment/library_path.sh
+[12.840s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/environment/library_path.dsv
+[12.840s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_7/share/ament_index/resource_index/package_run_dependencies/ros2_control_demo_example_7
+[12.840s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_7/share/ament_index/resource_index/parent_prefix_path/ros2_control_demo_example_7
+[12.840s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/environment/ament_prefix_path.sh
+[12.840s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/environment/ament_prefix_path.dsv
+[12.840s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/environment/path.sh
+[12.841s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/environment/path.dsv
+[12.841s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/local_setup.bash
+[12.841s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/local_setup.sh
+[12.841s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/local_setup.zsh
+[12.842s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/local_setup.dsv
+[12.842s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/package.dsv
+[12.842s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_7/share/ament_index/resource_index/packages/ros2_control_demo_example_7
+[12.842s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_7/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/ros2_control_demo_example_7
+[12.842s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_7/share/ament_index/resource_index/controller_interface__pluginlib__plugin/ros2_control_demo_example_7
+[12.843s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/cmake/export_ros2_control_demo_example_7Export.cmake
+[12.843s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/cmake/export_ros2_control_demo_example_7Export-noconfig.cmake
+[12.843s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/cmake/ament_cmake_export_targets-extras.cmake
+[12.843s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.843s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/cmake/ros2_control_demo_example_7Config.cmake
+[12.843s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/cmake/ros2_control_demo_example_7Config-version.cmake
+[12.844s] -- Installing: /root/dream_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/package.xml
+[12.846s] Invoked command in '/root/dream_ws/build/ros2_control_demo_example_7' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/dream_ws/build/ros2_control_demo_example_7
