@@ -1,0 +1,110 @@
+//=======================PULL=============================
+
+docker pull osrf/ros:humble-desktop-full
+docker images
+
+//=======================START============================
+
+docker pull osrf/ros:humble-desktop
+docker run -it osrf/ros:humble-desktop-full
+docker run --name humble -e DISPLAY=host.docker.internal:0.0 -it osrf/ros:humble-desktop-full
+docker run --name humble_from_file -e DISPLAY=host.docker.internal:0.0 -it humble_file
+
+//========================SOURCE==========================
+
+source /opt/ros/humble/setup.bash
+source ~/dev_ws/install/setup.bash
+ros2 run turtlesim turtlesim_node
+
+//========================FILE============================
+
+cd Desktop
+cd docker
+docker build -t humble_file .
+
+ros2 run rviz2 rviz2
+docker exec -it humble_from_file bash
+
+source /opt/ros/humble/setup.bash
+source $HOME/dev_ws/install/setup.bash
+source $HOME/dream_ws/install/setup.bash
+
+//========================INSTAL_MOVEIT===================
+apt-get update
+sudo apt install ros-humble-moveit
+
+//======================MOVEIT_ASSISTANT==================
+
+ros2 launch moveit_setup_assistant setup_assistant.launch.py
+
+//=======================RUN_GZ_SIM=======================
+
+apt install ros-humble-gazebo-ros-pkgs
+
+ign gazebo empty.sdf 
+ign service -s /world/empty/create --reqtype gz.msgs.EntityFactory --reptype gz.msgs.Boolean --timeout 1000 --req 'sdf_filename: "~/dev_ws/src/models/arm6axis.urdf", name: "urdf_model"'
+
+apt-get install ros-humble-controller-manager
+apt install ros-humble-joint-state-publisher-gui
+apt install ros-humble-xacro
+
+cd ~/dev_ws
+colcon build
+ros2 launch arm6axis gazebo.launch.py
+ros2 pkg create --build-type ament_cmake <package_name>
+
+
+//=======================WORLD_LAUNC=======================
+
+ros2 launch simple_bot_config demo.launch.py
+
+//=======================TO_INSTALL========================
+
+apt install mc
+apt install python3 python3-pip
+pip3 install numpy
+apt install ros-humble-moveit
+apt install ros-humble-joint-state-publisher-gui
+apt install ros-humble-xacro
+apt install ros-humble-gazebo-ros-pkgs
+apt-get install ros-humble-controller-manager
+apt-get install ros-humble-gazebo-ros2-control
+apt-get install ros-humble-ros-gz
+apt install ros-humble-ign-ros2-control
+apt install ros-humble-ign-ros2-control-demos
+apt-get install ros-humble-ros2-control
+apt-get install ros-humble-ros2-controllers
+apt-get install ros-humble-gripper-controllers
+
+//========================EXAMPLE==========================
+
+
+source ~/ros2_ws/install/setup.bash
+ros2 launch ign_ros2_control_demos gripper_mimic_joint_example.launch.py
+ros2 run ign_ros2_control_demos example_gripper
+
+ros2 launch mycobot_gazebo mycobot_280_arduino_bringup_gazebo.launch.py
+ros2 topic pub -1 /model/mycobot_280/joint/link1_to_link2/cmd_pos std_msgs/msg/Float64 '{data: -2.0}'
+
+//==========================GIT===========================
+
+git checkout -b main
+git add .
+git commit -m "ros2_controll examples"
+git push
+
+
+PS1="\u@\h:\w\$ "
+PROMPT_COMMAND='echo -ne "\033]0;<window_name>\007"'
+
+cd $HOME/dream_ws/install/
+rm -R kr600
+cd $HOME/dream_ws/build/
+rm -R kr600c
+cd $HOME/dream_ws
+colcon build
+
+
+ros2 launch kr600 kr600.launch.py
+
+https://github.com/ros-controls/ros2_control_demos/tree/master
