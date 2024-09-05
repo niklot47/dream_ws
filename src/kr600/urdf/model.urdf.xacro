@@ -1,6 +1,7 @@
 <?xml version="1.0" ?>
 <robot xmlns:xacro="http://wiki.ros.org/xacro" name="kr600">
- <xacro:property name="mesh_path" value="../meshes"/>
+<xacro:property name="mesh_path" value="../meshes"/>
+<link name="world"></link>
 <link name="base_link">
         <inertial>
             <origin xyz="0 0 0" rpy="0 0 0"/>
@@ -10,14 +11,9 @@
         <visual name="base_link_visual">
             <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
             <geometry>
-
-<!--                                               $ (find kr600)/meshes/base_link.stl   -->
-<!-- /root/dream_ws/install/kr600/share/kr600/urdf/$(find kr600)/meshes/base_link.stl   -->
-<!-- /root/dream_ws/install/kr600/share/kr600/urdf/$ (find kr600)/meshes/base_link.stl   -->
-<!-- package:/ -->
-
                 <mesh filename="../meshes/base_link.stl" scale="0.001 0.001 0.001" />
             </geometry>
+            <material name="Orange1"/>
         </visual>
         <collision name="base_link_collision">
             <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
@@ -37,6 +33,7 @@
             <geometry>
                 <mesh filename="../meshes/link1.stl" scale="0.001 0.001 0.001" />
             </geometry>
+            <material name="Black"/>
         </visual>
         <collision name="link1_collision">
             <origin xyz="6.93889390390723e-18 0.0 0.556" rpy="3.141592653589793 -0.0 0.0" />
@@ -56,6 +53,7 @@
             <geometry>
                 <mesh filename="../meshes/link2.stl" scale="0.001 0.001 0.001" />
             </geometry>
+            <material name="Orange2"/>
         </visual>
         <collision name="link2_collision">
             <origin xyz="-0.5 -1.045 -0.054000000000000006" rpy="-1.5707963267948966 -0.0 0.0" />
@@ -75,6 +73,7 @@
             <geometry>
                 <mesh filename="../meshes/link3.stl" scale="0.001 0.001 0.001" />
             </geometry>
+            <material name="Orange2"/>
         </visual>
         <collision name="link3_collision">
             <origin xyz="-0.500000000000006 2.345 0.255" rpy="1.5707963267948966 -0.0 0.0" />
@@ -94,6 +93,7 @@
             <geometry>
                 <mesh filename="../meshes/link4.stl" scale="0.001 0.001 0.001" />
             </geometry>
+            <material name="Orange2"/>
         </visual>
         <collision name="link4_collision">
             <origin xyz="-2.29 0.0 0.9890000000000061" rpy="-0.0 1.5707963267948966 0" />
@@ -113,6 +113,7 @@
             <geometry>
                 <mesh filename="../meshes/link5.stl" scale="0.001 0.001 0.001" />
             </geometry>
+            <material name="Orange1"/>
         </visual>
         <collision name="link5_collision">
             <origin xyz="-1.525000000000006 2.29 -0.17500000000000002" rpy="1.5707963267948966 -0.0 0.0" />
@@ -132,6 +133,7 @@
             <geometry>
                 <mesh filename="../meshes/link6.stl" scale="0.001 0.001 0.001" />
             </geometry>
+            <material name="Black"/>
         </visual>
         <collision name="link6_collision">
             <origin xyz="-2.29 0.0 -1.7620000000000058" rpy="-3.141592653589793 -1.5707963267948966 0" />
@@ -140,6 +142,15 @@
             </geometry>
         </collision>
     </link>
+
+    <!--======================= JOINTS =========================-->
+
+    <joint name="world__base_link" type="fixed">
+        <parent link="world"/>
+        <child link="base_link"/>
+        <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+    </joint>
+    
     <joint name="base_link_joint_base_link__link1" type="continuous">
         <origin xyz="0.0 0.0 0.5660000000000001" rpy="3.141592653589793 -0.0 0.0" />
         <parent link="base_link" />
@@ -178,10 +189,17 @@
     </joint>
 
     <!--=================== GAZEBO ================-->
-    
-    <gazebo reference="base_link">
-        <fixed >true</fixed >
-    </gazebo>
 
+    <material name="Orange1">
+        <color rgba="1.0 0.1 0.0 1.0"/>
+    </material>
+
+    <material name="Orange2">
+        <color rgba="1.0 0.15 0.1 1.0"/>
+    </material>
+
+    <material name="Black">
+        <color rgba="0.1 0.1 0.1 1.0"/>
+    </material>
 
 </robot>
