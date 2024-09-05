@@ -1,0 +1,6 @@
+Invoking command in '/root/dream_ws/build/kr600': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/dream_ws/src/kr600 -DCMAKE_INSTALL_PREFIX=/root/dream_ws/install/kr600
+Invoked command in '/root/dream_ws/build/kr600' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/dream_ws/src/kr600 -DCMAKE_INSTALL_PREFIX=/root/dream_ws/install/kr600
+Invoking command in '/root/dream_ws/build/kr600': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/dream_ws/build/kr600 -- -j12 -l12
+Invoked command in '/root/dream_ws/build/kr600' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/dream_ws/build/kr600 -- -j12 -l12
+Invoking command in '/root/dream_ws/build/kr600': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/dream_ws/build/kr600
+Invoked command in '/root/dream_ws/build/kr600' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/dream_ws/build/kr600

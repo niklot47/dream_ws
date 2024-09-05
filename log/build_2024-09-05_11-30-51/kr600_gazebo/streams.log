@@ -1,0 +1,65 @@
+[0.012s] Invoking command in '/root/dream_ws/build/kr600_gazebo': CMAKE_PREFIX_PATH=/root/dream_ws/install/kr600:/root/dream_ws/install/kr600_gazebo:/root/ros2_ws/install/mycobot_ros2:/root/ros2_ws/install/mycobot_gazebo:/root/ros2_ws/install/mycobot_description:/root/dev_ws/install/simple_bot_config:/root/dev_ws/install/movbot_config:/root/dev_ws/install/simple_bot:/root/dev_ws/install/moveit_demo:/root/dev_ws/install/cobot_simulation_config:/root/dev_ws/install/cobot_simulation:/root/dev_ws/install/basic_mobile_robot:/root/dev_ws/install/arm6axis:/opt/ros/humble /usr/bin/cmake /root/dream_ws/src/kr600_gazebo -DCMAKE_INSTALL_PREFIX=/root/dream_ws/install/kr600_gazebo
+[0.065s] -- The C compiler identification is GNU 11.4.0
+[0.122s] -- The CXX compiler identification is GNU 11.4.0
+[0.129s] -- Detecting C compiler ABI info
+[0.192s] -- Detecting C compiler ABI info - done
+[0.204s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.204s] -- Detecting C compile features
+[0.204s] -- Detecting C compile features - done
+[0.208s] -- Detecting CXX compiler ABI info
+[0.284s] -- Detecting CXX compiler ABI info - done
+[0.295s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.296s] -- Detecting CXX compile features
+[0.296s] -- Detecting CXX compile features - done
+[0.301s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.460s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.587s] -- Found ros_gz_sim: 0.244.15 (/opt/ros/humble/share/ros_gz_sim/cmake)
+[0.670s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.680s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.698s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.719s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.751s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.842s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.849s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.984s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.035s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.117s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.142s] -- Looking for pthread.h
+[1.240s] -- Looking for pthread.h - found
+[1.241s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.343s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.345s] -- Found Threads: TRUE  
+[1.481s] -- Found kr600: 0.0.0 (/root/dream_ws/install/kr600/share/kr600/cmake)
+[1.486s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.640s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.643s] -- Added test 'lint_cmake' to check CMake code style
+[1.644s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.646s] -- Added test 'xmllint' to check XML markup files
+[1.649s] -- Configuring done
+[1.657s] -- Generating done
+[1.660s] -- Build files have been written to: /root/dream_ws/build/kr600_gazebo
+[1.673s] Invoked command in '/root/dream_ws/build/kr600_gazebo' returned '0': CMAKE_PREFIX_PATH=/root/dream_ws/install/kr600:/root/dream_ws/install/kr600_gazebo:/root/ros2_ws/install/mycobot_ros2:/root/ros2_ws/install/mycobot_gazebo:/root/ros2_ws/install/mycobot_description:/root/dev_ws/install/simple_bot_config:/root/dev_ws/install/movbot_config:/root/dev_ws/install/simple_bot:/root/dev_ws/install/moveit_demo:/root/dev_ws/install/cobot_simulation_config:/root/dev_ws/install/cobot_simulation:/root/dev_ws/install/basic_mobile_robot:/root/dev_ws/install/arm6axis:/opt/ros/humble /usr/bin/cmake /root/dream_ws/src/kr600_gazebo -DCMAKE_INSTALL_PREFIX=/root/dream_ws/install/kr600_gazebo
+[1.676s] Invoking command in '/root/dream_ws/build/kr600_gazebo': CMAKE_PREFIX_PATH=/root/dream_ws/install/kr600:/root/dream_ws/install/kr600_gazebo:/root/ros2_ws/install/mycobot_ros2:/root/ros2_ws/install/mycobot_gazebo:/root/ros2_ws/install/mycobot_description:/root/dev_ws/install/simple_bot_config:/root/dev_ws/install/movbot_config:/root/dev_ws/install/simple_bot:/root/dev_ws/install/moveit_demo:/root/dev_ws/install/cobot_simulation_config:/root/dev_ws/install/cobot_simulation:/root/dev_ws/install/basic_mobile_robot:/root/dev_ws/install/arm6axis:/opt/ros/humble /usr/bin/cmake --build /root/dream_ws/build/kr600_gazebo -- -j12 -l12
+[1.727s] Invoked command in '/root/dream_ws/build/kr600_gazebo' returned '0': CMAKE_PREFIX_PATH=/root/dream_ws/install/kr600:/root/dream_ws/install/kr600_gazebo:/root/ros2_ws/install/mycobot_ros2:/root/ros2_ws/install/mycobot_gazebo:/root/ros2_ws/install/mycobot_description:/root/dev_ws/install/simple_bot_config:/root/dev_ws/install/movbot_config:/root/dev_ws/install/simple_bot:/root/dev_ws/install/moveit_demo:/root/dev_ws/install/cobot_simulation_config:/root/dev_ws/install/cobot_simulation:/root/dev_ws/install/basic_mobile_robot:/root/dev_ws/install/arm6axis:/opt/ros/humble /usr/bin/cmake --build /root/dream_ws/build/kr600_gazebo -- -j12 -l12
+[1.761s] Invoking command in '/root/dream_ws/build/kr600_gazebo': CMAKE_PREFIX_PATH=/root/dream_ws/install/kr600:/root/dream_ws/install/kr600_gazebo:/root/ros2_ws/install/mycobot_ros2:/root/ros2_ws/install/mycobot_gazebo:/root/ros2_ws/install/mycobot_description:/root/dev_ws/install/simple_bot_config:/root/dev_ws/install/movbot_config:/root/dev_ws/install/simple_bot:/root/dev_ws/install/moveit_demo:/root/dev_ws/install/cobot_simulation_config:/root/dev_ws/install/cobot_simulation:/root/dev_ws/install/basic_mobile_robot:/root/dev_ws/install/arm6axis:/opt/ros/humble /usr/bin/cmake --install /root/dream_ws/build/kr600_gazebo
+[1.770s] -- Install configuration: ""
+[1.770s] -- Installing: /root/dream_ws/install/kr600_gazebo/share/kr600_gazebo//launch
+[1.771s] -- Installing: /root/dream_ws/install/kr600_gazebo/share/kr600_gazebo//launch/gazebo.launch.py
+[1.771s] -- Installing: /root/dream_ws/install/kr600_gazebo/share/kr600_gazebo//urdf
+[1.771s] -- Installing: /root/dream_ws/install/kr600_gazebo/share/kr600_gazebo//urdf/model.urdf
+[1.771s] -- Installing: /root/dream_ws/install/kr600_gazebo/share/ament_index/resource_index/package_run_dependencies/kr600_gazebo
+[1.772s] -- Installing: /root/dream_ws/install/kr600_gazebo/share/ament_index/resource_index/parent_prefix_path/kr600_gazebo
+[1.772s] -- Installing: /root/dream_ws/install/kr600_gazebo/share/kr600_gazebo/environment/ament_prefix_path.sh
+[1.773s] -- Installing: /root/dream_ws/install/kr600_gazebo/share/kr600_gazebo/environment/ament_prefix_path.dsv
+[1.773s] -- Installing: /root/dream_ws/install/kr600_gazebo/share/kr600_gazebo/environment/path.sh
+[1.773s] -- Installing: /root/dream_ws/install/kr600_gazebo/share/kr600_gazebo/environment/path.dsv
+[1.774s] -- Installing: /root/dream_ws/install/kr600_gazebo/share/kr600_gazebo/local_setup.bash
+[1.774s] -- Installing: /root/dream_ws/install/kr600_gazebo/share/kr600_gazebo/local_setup.sh
+[1.774s] -- Installing: /root/dream_ws/install/kr600_gazebo/share/kr600_gazebo/local_setup.zsh
+[1.775s] -- Installing: /root/dream_ws/install/kr600_gazebo/share/kr600_gazebo/local_setup.dsv
+[1.775s] -- Installing: /root/dream_ws/install/kr600_gazebo/share/kr600_gazebo/package.dsv
+[1.775s] -- Installing: /root/dream_ws/install/kr600_gazebo/share/ament_index/resource_index/packages/kr600_gazebo
+[1.776s] -- Installing: /root/dream_ws/install/kr600_gazebo/share/kr600_gazebo/cmake/kr600_gazeboConfig.cmake
+[1.776s] -- Installing: /root/dream_ws/install/kr600_gazebo/share/kr600_gazebo/cmake/kr600_gazeboConfig-version.cmake
+[1.776s] -- Installing: /root/dream_ws/install/kr600_gazebo/share/kr600_gazebo/package.xml
+[1.781s] Invoked command in '/root/dream_ws/build/kr600_gazebo' returned '0': CMAKE_PREFIX_PATH=/root/dream_ws/install/kr600:/root/dream_ws/install/kr600_gazebo:/root/ros2_ws/install/mycobot_ros2:/root/ros2_ws/install/mycobot_gazebo:/root/ros2_ws/install/mycobot_description:/root/dev_ws/install/simple_bot_config:/root/dev_ws/install/movbot_config:/root/dev_ws/install/simple_bot:/root/dev_ws/install/moveit_demo:/root/dev_ws/install/cobot_simulation_config:/root/dev_ws/install/cobot_simulation:/root/dev_ws/install/basic_mobile_robot:/root/dev_ws/install/arm6axis:/opt/ros/humble /usr/bin/cmake --install /root/dream_ws/build/kr600_gazebo
