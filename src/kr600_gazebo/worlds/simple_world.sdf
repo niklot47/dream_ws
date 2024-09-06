@@ -76,5 +76,41 @@
         </link>
     </model>
 
+
+<model name="aocs_assembly">
+  <static>false</static> <!-- The model can move -->
+  <pose>0 0 1.50 0 0 0</pose> <!-- Position of the model -->
+  
+  <link name="link">
+    <!-- Collision with offset -->
+    <collision name="collision">
+      <pose>0 0 0 0 0 0</pose> <!-- Optional: Offset for collision (position and rotation) -->
+      <geometry>
+        <box>
+          <size>0.607 0.607 0.25</size> <!-- Box for collision -->
+        </box>
+      </geometry>
+    </collision>
+    
+    <!-- Visual with offset -->
+    <visual name="visual">
+      <pose>0 0 -0.25 0 0 0</pose> <!-- Optional: Offset for visual (position and rotation) -->
+      <geometry>
+        <mesh>
+          <uri>../models/AOCS_ASSEMBLY_simple.stl</uri>
+          <scale>0.001 0.001 0.001</scale>
+        </mesh>
+      </geometry>
+      <material>
+        <ambient>0.8 0.4 0.0 1.0</ambient>
+        <diffuse>0.8 0.4 0.0 1.0</diffuse>
+        <specular>0.1 0.1 0.1 1.0</specular>
+        <emissive>0 0 0 1.0</emissive>
+      </material>
+    </visual>
+  </link>
+</model>
+
+              
   </world>
 </sdf>
