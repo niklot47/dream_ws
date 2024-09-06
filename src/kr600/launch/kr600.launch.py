@@ -10,7 +10,7 @@ def generate_launch_description():
 
     # Define filenames    
     urdf_package = 'kr600'
-    urdf_filename = 'model.urdf.xacro'
+    urdf_filename = 'model_rviz.urdf.xacro'
     rviz_config_filename = 'config.rviz'
 
     # Set paths to important files

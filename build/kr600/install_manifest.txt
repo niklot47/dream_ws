@@ -8,6 +8,7 @@
 /root/dream_ws/install/kr600/share/kr600/meshes/link2.stl
 /root/dream_ws/install/kr600/share/kr600/meshes/link1.stl
 /root/dream_ws/install/kr600/share/kr600/rviz/config.rviz
+/root/dream_ws/install/kr600/share/kr600/urdf/model_rviz.urdf.xacro
 /root/dream_ws/install/kr600/share/kr600/urdf/model.urdf.xacro
 /root/dream_ws/install/kr600/share/ament_index/resource_index/package_run_dependencies/kr600
 /root/dream_ws/install/kr600/share/ament_index/resource_index/parent_prefix_path/kr600
