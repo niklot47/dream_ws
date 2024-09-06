@@ -1,0 +1,80 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="simple_world">
+
+    <!-- Параметры гравитации -->
+    <gravity>0 0 -9.8</gravity>
+
+    <!-- Добавим плоскость (землю) -->
+    <model name="ground_plane">
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>20 20</size>
+            </plane>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>20 20</size>
+            </plane>
+          </geometry>
+          <material>
+            <ambient>0.8 0.8 0.8 1.0</ambient>  <!-- Цвет освещения при тенях -->
+            <diffuse>0.8 0.8 0.8 1.0</diffuse>  <!-- Основной цвет плоскости -->
+            <specular>0.1 0.1 0.1 1.0</specular> <!-- Блики -->
+            <emissive>0 0 0 1</emissive>         <!-- Самосвечение -->
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Освещение -->
+    <light name="sun" type="directional">
+      <cast_shadows>true</cast_shadows>
+      <pose>0 0 10 0 -0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>0.1 0.1 0.1 1</specular>
+      <attenuation>
+        <range>1000</range>
+        <constant>0.9</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <direction>-0.5 0.5 -1</direction>
+    </light>
+
+    <model name="work_table">
+      <static>true</static> <!-- Куб не будет двигаться -->
+      <pose>0 0 0.5 0 0 0</pose> <!-- Центр куба (1x1x1 м) будет находиться на высоте 0.5 м -->
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size> <!-- Размер куба 1x1x1 метр -->
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+          <material>
+              <ambient>0.1 0.1 0.1 1.0</ambient>  <!-- Оранжевый цвет -->
+              <diffuse>0.1 0.1 0.1 1.0</diffuse>  <!-- Оранжевый цвет -->
+            <specular>0.1 0.1 0.1 1.0</specular> <!-- Блики -->
+            <emissive>0 0 0 1</emissive>         <!-- Самосвечение -->
+          </material>
+        </visual>
+        </link>
+    </model>
+
+  </world>
+</sdf>

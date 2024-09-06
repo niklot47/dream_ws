@@ -8,22 +8,22 @@
     </link>
     <link name="table">
         <inertial>
-            <origin xyz="0.0 0.0 0.6" rpy="0.0 0.0 0.0" />
+            <origin xyz="0.0 0.0 0.7" rpy="0.0 0.0 0.0" />
             <mass value="11455.191000000003" />
             <inertia ixx="2543.468607273" iyy="2543.468607273" izz="2310.1301850000045" ixy="-1.4972686767578125e-12" iyz="0.0" ixz="0.0" />
         </inertial>
         <visual name="table_visual">
-            <origin xyz="0.0 0.0 0.6" rpy="0.0 0.0 0.0" />
+            <origin xyz="0.0 0.0 0.7" rpy="0.0 0.0 0.0" />
             <geometry>
-                <box size="1.1 1.1 1.2" scale="0.001 0.001 0.001"/>
+                <box size="1.1 1.1 1.4" scale="0.001 0.001 0.001"/>
                 <!-- <mesh filename="../meshes/table.stl" scale="0.001 0.001 0.001" />> -->
             </geometry>
             <material name="Black"/>
         </visual>
         <collision name="table_collision">
-            <origin xyz="0.0 0.0 0.6" rpy="0.0 0.0 0.0" />
+            <origin xyz="0.0 0.0 0.7" rpy="0.0 0.0 0.0" />
             <geometry>
-                <box size="1.1 1.1 1.2" scale="0.001 0.001 0.001"/>
+                <box size="1.1 1.1 1.4" scale="0.001 0.001 0.001"/>
                 <!-- <mesh filename="../meshes/table.stl" scale="0.001 0.001 0.001" /> -->
             </geometry>
         </collision>
@@ -171,7 +171,7 @@
 
     <!-- ===================== JOINTS ============================ -->
     <joint name="world__table" type="fixed">
-        <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+        <origin xyz="0.0 0.0 -0.7" rpy="0.0 0.0 0.0" />
         <parent link="world" />
         <child link="table" />
     </joint>
@@ -228,7 +228,7 @@
     </material>
 
     <material name="Black">
-        <color rgba="0.1 0.1 0.1 1.0"/>
+        <color rgba="0.05 0.05 0.05 1.0"/>
     </material>
 
 </robot>
