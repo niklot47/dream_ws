@@ -1,7 +1,6 @@
-
 <?xml version="1.0" ?>
 <robot xmlns:xacro="http://wiki.ros.org/xacro" name="kr600">
-<xacro:property name="mesh_path" value="../meshes"/>
+
    <!-- ===================== links ============================ -->
     <link name="world">
     </link>
