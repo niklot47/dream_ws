@@ -8,7 +8,7 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(ros_gz_sim REQUIRED)
-find_package(kr600 REQUIRED)
+find_package(kr600_description REQUIRED)
 
 # uncomment the following section in order to fill in
 # further dependencies manually.

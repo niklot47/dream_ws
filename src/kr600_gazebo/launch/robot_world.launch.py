@@ -11,7 +11,7 @@ def generate_launch_description():
     world_path = os.path.join(get_package_share_directory('kr600_gazebo'), 'worlds', world_file_name)
 
     # Путь к файлу робота URDF
-    robot_urdf_file = os.path.join(get_package_share_directory('kr600'), 'urdf', 'model.urdf.xacro')
+    robot_urdf_file = os.path.join(get_package_share_directory('kr600'), 'urdf', 'gazebo.urdf.xacro')
 
     # Запуск Gazebo с миром
     gazebo = ExecuteProcess(

@@ -23,7 +23,7 @@ def generate_launch_description():
     spawn_entity = Node(
         package='ros_gz_sim',
         executable='create',
-        arguments=['-file', os.path.join(pkg_share_dir, 'urdf', 'model.urdf.xacro'), '-name', 'kr600'],
+        arguments=['-file', os.path.join(pkg_share_dir, 'urdf', 'gazebo.urdf.xacro'), '-name', 'kr600'],
         output='screen'
     )
 

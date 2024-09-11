@@ -14,11 +14,11 @@ def generate_launch_description():
     world_file = os.path.join(pkg_gazebo, 'worlds', 'simple_world.sdf')
 
     # Path to RViz configuration
-    pkg_kr600 = FindPackageShare(package='kr600').find('kr600')
-    rviz_config_file = os.path.join(pkg_kr600, 'rviz', 'config.rviz')
+    pkg_kr600_description = FindPackageShare(package='kr600_description').find('kr600_description')
+    rviz_config_file = os.path.join(pkg_kr600_description, 'rviz', 'config.rviz')
 
     # Path to the new RViz-specific URDF file
-    urdf_file_rviz = os.path.join(pkg_kr600, 'urdf', 'model_rviz.urdf.xacro')
+    urdf_file_rviz = os.path.join(pkg_kr600_description, 'urdf', 'rviz.urdf.xacro')
 
     # Launch arguments
     use_sim_time = LaunchConfiguration('use_sim_time', default='true')

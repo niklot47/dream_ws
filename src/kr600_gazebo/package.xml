@@ -11,8 +11,8 @@
   <exec_depend>ament_cmake</exec_depend>
   <build_depend>ros_gz_sim</build_depend>
   <exec_depend>ros_gz_sim</exec_depend>
-  <build_depend>kr600</build_depend>
-  <exec_depend>kr600</exec_depend>
+  <build_depend>kr600_description</build_depend>
+  <exec_depend>kr600_description</exec_depend>
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
 
