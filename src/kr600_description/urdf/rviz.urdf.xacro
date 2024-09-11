@@ -1,9 +1,8 @@
+
 <?xml version="1.0" ?>
 <robot xmlns:xacro="http://wiki.ros.org/xacro" name="kr600">
 <xacro:property name="mesh_path" value="../meshes"/>
-
    <!-- ===================== links ============================ -->
-
     <link name="world">
     </link>
     <link name="table">
@@ -166,7 +165,6 @@
             </geometry>
         </collision>
     </link>
-
     <!-- ===================== joints ============================ -->
     <joint name="world__table" type="fixed">
         <origin xyz="0.0 0.0 -0.6" rpy="0.0 0.0 0.0" />
@@ -222,17 +220,13 @@
         <axis xyz="0.0 0.0 1.0" />
         <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
     </joint>
-
    <!--=================== materials ================-->
-
     <material name="Orange1">
         <color rgba="1.0 0.1 0.0 1.0"/>
     </material>
-
     <material name="Orange2">
         <color rgba="1.0 0.15 0.1 1.0"/>
     </material>
-
     <material name="Black">
         <color rgba="0.05 0.05 0.05 1.0"/>
     </material>
@@ -241,7 +235,7 @@
     <transmission name="transmission_base_link__link1">
         <type>transmission_interface/SimpleTransmission</type>
         <joint name="base_link__link1">
-            <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+          <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
         </joint>
         <actuator name="base_link__link1_motor">
             <mechanicalReduction>1</mechanicalReduction>
@@ -250,7 +244,7 @@
     <transmission name="transmission_link1__link2">
         <type>transmission_interface/SimpleTransmission</type>
         <joint name="link1__link2">
-            <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+          <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
         </joint>
         <actuator name="link1__link2_motor">
             <mechanicalReduction>1</mechanicalReduction>
@@ -259,7 +253,7 @@
     <transmission name="transmission_link2__link3">
         <type>transmission_interface/SimpleTransmission</type>
         <joint name="link2__link3">
-            <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+          <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
         </joint>
         <actuator name="link2__link3_motor">
             <mechanicalReduction>1</mechanicalReduction>
@@ -268,7 +262,7 @@
     <transmission name="transmission_link3__link4">
         <type>transmission_interface/SimpleTransmission</type>
         <joint name="link3__link4">
-            <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+          <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
         </joint>
         <actuator name="link3__link4_motor">
             <mechanicalReduction>1</mechanicalReduction>
@@ -277,7 +271,7 @@
     <transmission name="transmission_link4__link5">
         <type>transmission_interface/SimpleTransmission</type>
         <joint name="link4__link5">
-            <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+          <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
         </joint>
         <actuator name="link4__link5_motor">
             <mechanicalReduction>1</mechanicalReduction>
@@ -286,11 +280,10 @@
     <transmission name="transmission_link5__link6">
         <type>transmission_interface/SimpleTransmission</type>
         <joint name="link5__link6">
-            <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+          <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
         </joint>
         <actuator name="link5__link6_motor">
             <mechanicalReduction>1</mechanicalReduction>
         </actuator>
     </transmission>
-
 </robot>
